@@ -3,7 +3,7 @@ package h04;
 import java.applet.Applet;
 import java.awt.*;
 
-public class House  extends Applet{
+public class HouseAndFlag extends Applet{
     public void init() {
     }
 
