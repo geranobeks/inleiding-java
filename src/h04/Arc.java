@@ -4,7 +4,7 @@ package h04;
 import java.applet.Applet;
 import java.awt.*;
 
-public class arc extends Applet {
+public class Arc extends Applet {
     public void paint(Graphics g) {
 
     setBackground(Color.blue);

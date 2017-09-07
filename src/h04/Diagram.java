@@ -24,11 +24,11 @@ public class Diagram extends Applet {
         g.drawString("Valerie", 60, 185);
         g.drawString("Jeroen", 120, 185);
         g.drawString("Hans", 185, 185);
-        g.setColor(Color.pink);
+        g.setColor (new Color (173, 66, 244) );
         g.fillRect(58,100, 45, 70);
-        g.setColor(Color.green);
+        g.setColor (new Color (30, 105, 46) );
         g.fillRect(118, 10, 45, 160);
-        g.setColor(Color.yellow);
+        g.setColor (new Color (255, 215, 0) );
         g.fillRect(178, 40, 45, 130);
 
     }
