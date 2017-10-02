@@ -5,6 +5,8 @@ import java.awt.*;
 
 public class Practice1 extends Applet{
 
+    double a= 113;
+    double b= 4;
 
         public void init () {
 
@@ -12,7 +14,8 @@ public class Practice1 extends Applet{
         }
 
     public void paint(Graphics g) {
-        int calc = 113/4;
+
+        double calc = (int) a/b;
         g.drawString("113 gesplit voor 4 personen "+ calc, 20, 10);
         g.drawString("Jan:€"+calc, 20, 30);
         g.drawString("Ali:€"+calc, 20, 45);
