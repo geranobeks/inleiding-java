@@ -12,12 +12,14 @@ public class Practice1 extends Applet {
 
 
     public void init() {
-        setSize(600, 300);
+        setSize(800, 300);
+        KnopListener kl = new KnopListener();
         tekstvak = new TextField("", 30);
         knop = new Button("OK");
-        knop.addActionListener(new KnopListener());
+        knop.addActionListener(kl);
         dop = new Button("Reset");
         dop.addActionListener(new Wis());
+        tekstvak.addActionListener(kl);
         add(tekstvak);
         add(knop);
         add(dop);
@@ -45,5 +47,6 @@ public class Practice1 extends Applet {
             repaint();
         }
     }
+
 }
 

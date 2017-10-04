@@ -11,7 +11,8 @@ public class Practice3 extends Applet {
 
     public void paint(Graphics g) {
     int negative = 2147483647 + 15;
-    g.drawString("de uitkomst is: " + negative,20,20);
+    g.drawString("de uitkomst is: " + negative,20,20
+    );
 
     }
 }
