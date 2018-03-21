@@ -20,6 +20,7 @@ public class dinges extends Applet {
     }
 
     public void paint(Graphics g) {
+
         g.drawString("het getal is " + (int) getal,50,60);
     }
     class Textvaklistener implements ActionListener{
